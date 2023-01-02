@@ -17,7 +17,7 @@ const port = process.env.PORT || 5000;
 
 
 const middleware = (req, res, next) => {
-    console.log("Hello from the middleware");
+    console.log("Hello from the middleware!!!!");
     next();
 }
 
