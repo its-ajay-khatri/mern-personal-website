@@ -24,7 +24,7 @@ const Login = () => {
     const loginUser = async (event) => {
         event.preventDefault();
 
-        const res = await fetch(`${process.env.REACT_APP_DB_URL}/signin`, {        //prefer signup for documentation
+        const res = await fetch('/signin', {        //prefer signup for documentation
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
